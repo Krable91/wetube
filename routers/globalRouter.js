@@ -1,0 +1,12 @@
+import express from "express";
+import routes from "../routes";
+
+const globalRouter = express.Router();
+
+globalRouter.get(routes.home, (req, res) => res.send("HOME"));
+globalRouter.get(routes.join, (req, res) => res.send("JOIN"));
+globalRouter.get(routes.login, (req, res) => res.send("LOGIN"));
+globalRouter.get(routes.logout, (req, res) => res.send("LOGOUT"));
+globalRouter.get(routes.serch, (req, res) => res.send("SERCH"));
+
+export default globalRouter;
