@@ -3,8 +3,8 @@ export const videos = [
         id: 91,
         title: "Videos1",
         description: "This is something I love1",
-        Views: 24,
-        videoFile: "https://archive.org/details/BigBuckBunny_124",
+        views: 24,
+        videoFile: "https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4",
         creator: {
             id: 121212,
             name: "lee juneho",
@@ -15,8 +15,8 @@ export const videos = [
         id: 92,
         title: "Videos2",
         description: "This is something I love2",
-        Views: 24,
-        videoFile: "https://archive.org/details/BigBuckBunny_124",
+        views: 24,
+        videoFile: "https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4",
         creator: {
             id: 121212,
             name: "lee juneho",
@@ -27,8 +27,8 @@ export const videos = [
         id: 93,
         title: "Videos3",
         description: "This is something I love3",
-        Views: 24,
-        videoFile: "https://archive.org/details/BigBuckBunny_124",
+        views: 24,
+        videoFile: "https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4",
         creator: {
             id: 121212,
             name: "lee juneho",
@@ -39,8 +39,8 @@ export const videos = [
         id: 94,
         title: "Videos4",
         description: "This is something I love4",
-        Views: 24,
-        videoFile: "https://archive.org/details/BigBuckBunny_124",
+        views: 24,
+        videoFile: "https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4",
         creator: {
             id: 121212,
             name: "lee juneho",
