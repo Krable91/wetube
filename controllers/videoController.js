@@ -5,9 +5,10 @@ res.render("home", { pageTitle: "Home", videos });
 };
 
 export const search = (req, res) => {
-    const {query: { term: searchingBy}
+    const { 
+        query: { term: searchingBy}
 } = req;
-    res.render("search", {pageTitle: "Search", searchingBy });
+    res.render("search", {pageTitle: "Search", searchingBy, videos });
 };
 
 export const upload = (req, res) => 
