@@ -29,9 +29,10 @@ export const postUpload = async (req, res) => {
     const newVideo = await Video.create({
         fileUrl: path,
         title,
-        description
+        description,
+        path: path.replace(/\\/g, "/")
     });
-    console.log(newVideo)
+    console.log(newVideo);
     res.redirect(routes.videoDetail(newVideo.id));
 };
 
