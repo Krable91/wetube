@@ -12,6 +12,7 @@
     "core-util-is": "^1.0.2",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "helmet": "^3.21.2",
     "mongoose": "^5.9.1",
     "morgan": "^1.9.1",
@@ -19,10 +20,13 @@
     "negotiator": "^0.6.2",
     "pug": "^2.0.4",
     "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.10.3"
   },
   "scripts": {
-    "start": "nodemon --exec babel-node init.js --delay 2s"
+    "dev:server": "nodemon --exec babel-node init.js --delay 2s",
+    "dev:assets": "WEBPACK_ENV=development webpack",
+    "build:assets": "WEBPACK_ENV=production webpack"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
