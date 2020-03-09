@@ -31,7 +31,7 @@
     "webpack-dev-server": "^3.10.3"
   },
   "scripts": {
-    "dev:server": "nodemon --exec babel-node init.js --delay 2s",
+    "dev:server": "nodemon --exec babel-node init.js --delay 2s --ignore 'scss' ",
     "dev:assets": "set WEBPACK_ENV=development&&webpack -w",
     "build:assets": "set WEBPACK_ENV=production&&webpack"
   },
